@@ -11,14 +11,14 @@ import Footer from '../Footer'
 export default function HomePage() {
   return (
     <>
-        <Navbar />
+        {/* <Navbar /> */}  {/* maine ise router me hi kr diya taki sbhi pages jaye ni to hr page me dalna hota */}
         <Hero />
         <Awards />
         <Stats />
         <Pricing />
         <Education />
         <OpenAccount />
-        <Footer /> 
+        {/* <Footer />  */}
     </>
   )
 }
