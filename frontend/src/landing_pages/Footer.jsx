@@ -66,8 +66,28 @@ export default function Footer() {
           <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Referral program</a>
           <br />
         </div>
+
+        <div className="col htps">
+          <p className="fs-5">Quick links</p>
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Upcoming IPOs</a>
+          <br />
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Brokerage charges</a>
+          <br />
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Market holidays</a>
+          <br />
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Economic calendar</a>
+          <br />
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Dematerialisation</a>
+          <br />
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Calculators</a>
+          <br />
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Markets</a>
+          <br />
+          <a className="text-muted me-3 hover-blue" href="" style={{textDecoration:"none"}} >Sectors</a>
+          <br />
+        </div>
       </div>
-      <div className="mt-5 fs-8  text-muted" style={{fontSize: "14px"}}>
+      <div className="mt-5 fs-8  text-muted" style={{fontSize: "13px"}}>
       <p className="text-muted">
         Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
         no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking
@@ -76,18 +96,18 @@ export default function Footer() {
         INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th
         Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
         Bengaluru - 560078, Karnataka, India. For any complaints pertaining to
-        securities broking please write to complaints@zerodha.com, for DP
-        related to dp@zerodha.com. Please ensure you carefully read the Risk
+        securities broking please write to <a href="" style={{textDecoration:"none"}}>complaints@zerodha.com</a>, for DP
+        related to <a href="" style={{textDecoration:"none"}}>dp@zerodha.com</a>. Please ensure you carefully read the Risk
         Disclosure Document as prescribed by SEBI | ICF
       </p>
       <p className="text-muted">
-        Procedure to file  a complaint on SEBI SCORES: Register on SCORES portal.
+        Procedure to file  a complaint on <a href="" style={{textDecoration:"none"}}>SEBI SCORES</a>: Register on SCORES portal.
         Mandatory details for filing complaints on SCORES: Name, PAN, Address,
         Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy
         redressal of the grievances
       </p>
       <p className="text-muted">
-        Smart Online Dispute Resolution | Grievances Redressal Mechanism
+        <a href="" style={{textDecoration:"none"}}>Smart Online Dispute Resolution</a> | <a href="" style={{textDecoration:"none"}}>Grievances Redressal Mechanism</a>
       </p>
       <p className="text-muted">
         Investments in securities market are subject to market risks; read all
@@ -103,8 +123,8 @@ export default function Footer() {
         issued by NSDL/CDSL every month.
       </p>
       <p className="text-muted">
-        India's largest broker based on networth as per NSE. NSE broker
-        factsheet
+        India's largest broker based on networth as per NSE. <a href="" style={{textDecoration:"none"}}>NSE broker
+        factsheet</a>
       </p>
       <p className="text-muted">
         "Prevent unauthorised transactions in your account. Update your mobile
@@ -120,8 +140,27 @@ export default function Footer() {
         allotment. In case of non allotment the funds will remain in your bank
         account. As a business we don't give stock tips, and have not authorized
         anyone to trade on behalf of others. If you find anyone claiming to be
-        part of Zerodha and offering such services, please create a ticket here.
+        part of Zerodha and offering such services, please <a href="" style={{textDecoration:"none"}}>create a ticket here</a>.
       </p>
+      </div>
+      <div className="mb-1 row " style={{fontSize: "13px" , fontWeight:"200px"}}>
+        <div className="col-1">
+         
+        </div>
+        <div className="col-10 d-flex justify-content-beetween">
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >NSE </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >BSE </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >MCX </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >Terms & conditions </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >Policies & Procedures </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >Privacy Policy </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >Disclosure </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >For investor's attention </a>
+        <a href="" className="text-muted hover-blue p-3" style={{textDecoration:"none"}} >investor charter </a>
+        </div>
+        <div className="col-1">
+         
+        </div>
       </div>
     </div>
     </footer>

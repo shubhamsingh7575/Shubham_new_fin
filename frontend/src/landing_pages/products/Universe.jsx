@@ -26,7 +26,7 @@ export default function Universe() {
           </p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/goldenpiLogo.png" />
+          <img src="media/images/tijori.svg" style={{width:"40%", margin: "0 auto"}}/>
           <p className="text-small text-muted">
             Investment research platform that offers detailed insights on
             stocks, sectors, supply chains, and more.

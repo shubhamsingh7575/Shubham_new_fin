@@ -15,9 +15,35 @@ code {
 .htps{
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
 }
 .hover-blue:hover {
   color: blue !important;
   text-decoration: none; /* underline na aaye */
+}
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+#supportHero a{
+  
+  color: white;
+}
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.temp {
+  width: fit-content;
+  margin-left: auto;
 }
