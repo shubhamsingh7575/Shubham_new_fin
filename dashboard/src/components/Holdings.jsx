@@ -13,7 +13,7 @@ const Holdings = () => {
       // console.log(res.data);
       setAllHoldings(res.data);
     });
-  }, []);
+  }, []); 
 
   // const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
   const labels = allHoldings.map((subArray) => subArray["name"]);
@@ -71,7 +71,7 @@ const Holdings = () => {
             return (
               <tr key={index}>
                 <td>{stock.name}</td>
-                <td>{stock.qty}</td>
+                <td>{stock.qty}</td> 
                 <td>{stock.avg.toFixed(2)}</td>
                 <td>{stock.price.toFixed(2)}</td>
                 <td>{curValue.toFixed(2)}</td>

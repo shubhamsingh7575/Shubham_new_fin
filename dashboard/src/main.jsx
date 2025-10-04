@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom"; // ✅ add Routes + Route
-import Home from "./components/Dashboard";
+import Home from "./components/Home";
 
 import "./index.css";
 
