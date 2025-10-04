@@ -100,7 +100,7 @@ npm run dev
 ```bash
 cd dashboard
 npm install
-npm start
+npm run dev
 ```
 👉 Runs on **http://localhost:5174**
 
@@ -110,9 +110,11 @@ npm start
 ```bash
 cd backend
 npm install
-node server.js
+nodemon index.js
 ```
-👉 Runs on **http://localhost:3002**
+👉 Runs on **http://localhost:3002** || https://invest-backend-guek.onrender.com
+
+
 
 ---
 
